@@ -1,4 +1,7 @@
-
+import Image from 'next/image'
+import Whats from '../public/images/whats.svg'
+import Inst from '../public/images/inst.svg'
+import Local from '../public/images/location.png'
 
 function Footer() {
 	return (
@@ -31,14 +34,17 @@ function Footer() {
         </ul>
         <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
             <a href="https://api.whatsapp.com/send?phone=556199549-6939&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_back" className=" hover:scale-110  dark:hover:scale-110 ">
-              <img src="/images/whats.svg" />
+              <Image src={Whats} />
+              {/* <img src="/images/whats.svg" /> */}
             </a>
            
             <a href="#" className="hover:scale-110 duration-300 ">
-              <img src="/images/location.png" />
+              <Image src={Local} />
+              {/* <img src="/images/location.png" /> */}
             </a>
             <a href="https://api.instagram.com/grafica.santafe/" target="_back" className=" hover:scale-110  dark:hover:scale-110 ">
-            <img src="/images/inst.svg" />
+              <Image src={Inst} />
+              {/* <img src="/images/inst.svg" /> */}
             </a>
 
         </div>

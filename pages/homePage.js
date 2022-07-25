@@ -5,8 +5,8 @@ import Logo from '../public/images/logo0.png'
 
 function Home() {
 	return (
-<div className="h-1/4">
-    <div id="home" className=" relative overflow-hidden h-screen h-1/4 rounded-3xl">
+<div className="">
+    <div id="home" className="relative overflow-hidden h-1/4 rounded-3xl">
     {/* <div className=" relative overflow-hidden h-screen h-1/3 rounded-3xl"> */}
     <div className="absolute h-full w-full object-cover rounded-3xl">
       <Image src={Bg}layout="fill" />
